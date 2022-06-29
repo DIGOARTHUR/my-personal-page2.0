@@ -1,10 +1,15 @@
-import './style/global.css'
+import './styles/global.scss'
 
 function App() {
   return (
-<>
-<h1>Olá Mundo</h1>
-</>
+    <div className="container">
+      <header>Header</header>
+      <main>
+        <section className="bioContainer">Bio</section>
+        <section className="skillContainer">Skills</section>
+      </main>
+
+    </div>
   );
 }
 
