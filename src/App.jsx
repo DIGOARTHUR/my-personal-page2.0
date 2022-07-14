@@ -1,3 +1,4 @@
+import { Skills } from './components/skills/Skills';
 import './styles/global.scss'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
       <header>Header</header>
       <main>
         <section className="bioContainer">Bio</section>
-        <section className="skillContainer">Skills</section>
+        <Skills/>
       </main>
 
     </div>

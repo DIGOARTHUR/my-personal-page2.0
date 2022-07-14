@@ -1,0 +1,40 @@
+{
+    "Tools": [
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179073866-1d696287-0b99-4952-bcb1-85038083288d.svg",
+            "name": "VScode"
+        },
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179073627-7552da06-be68-47c0-98a5-f43189d17555.svg",
+            "name": "Git"
+        }
+    ],
+    "LanguagesFrameworks": [
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179079379-09c0a8aa-6ff9-423b-8d7e-60a710a47b09.svg",
+            "name": "HTML5"
+        },
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179079429-887313e0-0cfb-4385-878a-f210dc6f50ef.svg",
+            "name": "JavaScript"
+        },
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179078679-4f3fa74c-75d1-450b-9846-111d5b709c53.svg",
+            "name": "CSS3"
+        },
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179084376-ccf78167-6632-4a38-92fb-56dfb9145dc4.svg",
+            "name": "ReactJS"
+        },
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179085755-2b9e6e94-0c08-4937-a43e-1f6ec905d504.svg",
+            "name": "TypeScript"
+        }
+    ],
+    "Databases": [
+        {
+            "logo": "https://user-images.githubusercontent.com/59892368/179088739-3fddcd65-3d50-4921-b6c8-ac3ddcac2390.svg",
+            "name": "MySQL"
+        }
+    ]
+}

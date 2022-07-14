@@ -1,0 +1,104 @@
+.skillsContainer {
+    color: white;
+    border-radius: 3rem;
+    background-color: var(--purple-light);
+    height: 93vh;
+    padding: 1rem 2rem;
+    animation: go-back 2s;
+
+    h1 {
+        font-family: 700 'Inconsolata', monospace;
+        font-size: 3.8rem;
+    }
+
+    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+
+    h5 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    img {
+        height: 10vh;
+        width: 10vh;
+    }
+
+    section {
+        &+section {
+            margin-top: 1rem;
+        }
+    }
+
+    .typeSkillsContainer {
+
+
+        .itemsContainer {
+
+            width: 60rem;
+            border-top: 2px solid white;
+            display: flex;
+            flex-wrap: wrap;
+
+
+
+            .itemsContent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 8rem;
+                margin-right: 2rem;
+                margin-top: 1rem;
+
+            }
+        }
+
+
+        span {
+            font-size: 1.2rem;
+            font-family: 'Inconsolata', monospace;
+            color: #B1B1B1;
+        }
+    }
+
+    footer {
+       
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+
+        button {
+           
+            margin-top:2rem;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--purple-light);
+            width: 100%;
+            border:0;
+            height: 2.0rem;
+            font-size: 2.5rem;
+            color: white;
+            .iconButton {
+                animation: shake 1.3s linear infinite;
+            }
+        }
+    }
+}
+
+@keyframes go-back {
+    0% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}

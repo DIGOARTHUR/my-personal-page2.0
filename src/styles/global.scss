@@ -9,6 +9,18 @@
   --text-light: #A09CB1;
 }
 
+@media(max-width:1080px){
+  html{
+      font-size:93.75%
+  }
+}
+
+@media(max-width:720px){
+  html{
+      font-size:87.5%
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,20 +45,21 @@ button {
 
 
 header{
-  height: 5rem;
+  height: 6vh;
 }
+
+
+
 main {
   display:grid;
   border: 1px solid red;
   grid-template-columns: 1fr 2fr;
   width: 100%;
+  height: 94vh;
+  
   .bioContainer {
 
   }
 
-  .skillContainer {
-    color:white;
-    background-color:var(--purple-light);
-    height:calc(100vh - 5rem);
-  }
+ 
 }
