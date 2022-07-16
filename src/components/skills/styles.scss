@@ -5,7 +5,7 @@
     height: 93vh;
     padding: 1rem 2rem;
     animation: go-back 2s;
-
+    width: 60vw;
     h1 {
         font-family: 700 'Inconsolata', monospace;
         font-size: 3.8rem;
@@ -34,7 +34,7 @@
 
         .itemsContainer {
 
-            width: 60rem;
+           
             border-top: 2px solid white;
             display: flex;
             flex-wrap: wrap;
