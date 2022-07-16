@@ -8,7 +8,7 @@ export function Bio() {
             <section className="bioContent">
                 <h1>About me</h1>
               <div className="descriptionBio">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <p>"Sou natural de Maceió/AL, mas passei grande parte da vida em Brasília/DF e na cidade onde me formei, Ouro Branco/MG. Possuo graduação em Bel. Interdisciplinar em Ciência e Tecnologia pela Universidade Federal de São João Del-Rei(2019), dentro da área de Engenharia Mecatrônica. Participo de pesquisa na área: Estatística Computacional e de Software. Atuo como Desenvolvedor de Software, e estou me especializando em ReactJS e  NodeJS pela Rocketseat(2022)."</p>
               </div>
             </section>
         </div>
