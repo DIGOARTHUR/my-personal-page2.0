@@ -1,0 +1,35 @@
+.bioContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    color: var(--purple-light);
+    width:88%;
+    .avatarImg {
+        width: 350px;
+        height: 350px;
+        border-radius: 350px;
+    }
+
+    .bioContent {
+        margin-top: 1rem;
+
+        h1 {
+            font: 2rem "rubik", Arial, sans-serif;
+            font-weight: 900;
+        }
+
+        .descriptionBio {
+            //font-family: 'Edu SA Beginner', cursive;
+            height:36vh;
+            font: 1.1rem sans-serif;
+            background-color: rgba(87, 67, 209, 0.1);
+            border-radius: 1rem;
+            padding: 1rem;
+            font-weight: 500;
+            line-height:1.4rem;
+        }
+
+
+
+    }
+}
