@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 1rem auto;
     color: var(--purple-light);
-    width:85%;
+    width:88%;
     .avatarImg {
         width: 350px;
         height: 350px;
@@ -20,11 +20,13 @@
 
         .descriptionBio {
             //font-family: 'Edu SA Beginner', cursive;
+            height:36vh;
             font: 1.1rem sans-serif;
             background-color: rgba(87, 67, 209, 0.1);
             border-radius: 1rem;
             padding: 1rem;
             font-weight: 500;
+            line-height:1.4rem;
         }
 
 
