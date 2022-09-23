@@ -1,0 +1,74 @@
+footer {
+  display: flex;
+  justify-content: center;
+  height: 5%;
+
+  .changeColor:hover {
+    color: blue;
+  }
+
+
+  
+
+  .Linkedin {
+    gap:2px;
+    svg {visibility: hidden;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+
+      a {
+        transition: color 2s;
+        color: #0077b5;
+      }
+
+      svg {
+        transition: fill 2s;
+        visibility: visible;
+        fill: #0077b5;
+      }
+    }
+  }
+
+
+  .Instagram{
+    gap:2px;
+    svg {visibility: hidden;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+
+      a {
+        transition: color 2s;
+        color: #e1306c;
+      }
+
+      svg {
+        transition: fill 2s;
+        visibility: visible;
+        fill: #e1306c;
+      }
+    }
+  }
+
+
+
+
+
+  a {
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+}

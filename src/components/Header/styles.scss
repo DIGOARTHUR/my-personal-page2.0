@@ -1,0 +1,35 @@
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    height: 10%;
+
+    .logoName {
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 12px;
+        padding: 0 10px;
+
+        background: linear-gradient(135deg,
+                var(--colors-purple) 0%,
+                var(--colors-pink) 100%);
+        background-size: 100;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Roboto', sans-serif;
+    }
+   
+    .navigation {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-family: 'Rubik';
+            font-size: 13px;
+            padding: 20px;
+
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1.3fr 2fr 1fr;
+    height: 85%;
+
+    .content {
+
+        padding: 20px 0px;
+        width: 500px;
+        height: 350px;
+
+        h1 {
+            font-size: 43px;
+            background: linear-gradient(135deg,
+                    var(--colors-purple) 0%,
+                    var(--colors-green) 100%);
+            background-size: 100;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent
+        }
+
+        p {
+            margin-top: 16px;
+
+            strong {
+                color: var(--white)
+            }
+
+            line-height: 32px;
+            font-size: 16px;
+        }
+    }
+}
