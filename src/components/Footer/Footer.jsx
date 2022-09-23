@@ -6,13 +6,13 @@ export function Footer() {
 
 
             <span className="Linkedin"    >
-                <a href="">linkedin  </a>
+                <a href="https://www.linkedin.com/in/digoarthur/">linkedin  </a>
                 < AiFillLinkedin className="svg" />
 
             </span>
 
             <span className="Email"   >
-                <a className="Email" href="Email">email</a>
+                <a className="Email" href="digo.arthur@hotmail.com">email</a>
                 < AiOutlineMail className="svg" />
 
             </span>
@@ -21,13 +21,13 @@ export function Footer() {
 
 
             <span className="Instagram"   >
-                <a href="Instagram">instagram</a>
+                <a href="https://www.instagram.com/digoarthur/">instagram</a>
                 < AiOutlineInstagram className="svg" />
 
             </span>
 
             <span className="Github"   >
-                <a className="Github" href="Github">github</a>
+                <a className="Github" href="https://github.com/DIGOARTHUR">github</a>
                 < AiFillGithub className="svg" />
 
             </span>
