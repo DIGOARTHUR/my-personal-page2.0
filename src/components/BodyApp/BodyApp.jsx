@@ -6,7 +6,7 @@ export function BodyApp() {
         <main className="main">
             <div />
             <section className="content" >
-                <h1>Diego Arthur </h1>
+                <h1>Diego Arthur</h1>
                 <p>
                     <strong>Front-end Developer | Passionate about React. </strong>
                     <br />
