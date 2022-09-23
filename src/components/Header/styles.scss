@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     height: 10%;
+   
 
     .logoName {
         font-size: 32px;
@@ -26,9 +27,20 @@
         justify-content: center;
         align-items: center;
         span {
-            font-family: 'Rubik';
+            display:flex;
+            align-items: center;
+            justify-content: center;
+         
+            cursor: pointer;
+           
+            width:100px;
+            border-radius: 5px;
             font-size: 13px;
-            padding: 20px;
+            padding: 13px;
+            transition: background-color 0.5s;
+            &:hover{
+                background-color: #44475a;
+            }
 
         }
     }

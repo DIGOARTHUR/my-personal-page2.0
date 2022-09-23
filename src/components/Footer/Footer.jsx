@@ -1,20 +1,19 @@
 import './styles.scss'
-import ReactLogo from '../../icons8-linkedin-2.svg';
-import { AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
+import { AiFillLinkedin, AiOutlineInstagram,AiFillGithub,AiOutlineMail } from "react-icons/ai";
 export function Footer() {
     return (
         <footer>
 
 
             <span className="Linkedin"    >
-                <a href="">Linkedin  </a>
+                <a href="https://www.linkedin.com/in/digoarthur/">linkedin  </a>
                 < AiFillLinkedin className="svg" />
 
             </span>
 
-            <span className="Instagram"   >
-                <a className="Email" href="Email">Email</a>
-                < AiOutlineInstagram className="svg" />
+            <span className="Email"   >
+                <a className="Email" href="digo.arthur@hotmail.com">email</a>
+                < AiOutlineMail className="svg" />
 
             </span>
 
@@ -22,14 +21,14 @@ export function Footer() {
 
 
             <span className="Instagram"   >
-                <a href="Instagram">Instagram</a>
+                <a href="https://www.instagram.com/digoarthur/">instagram</a>
                 < AiOutlineInstagram className="svg" />
 
             </span>
 
-            <span className="Instagram"   >
-                <a className="Github" href="Github">Github</a>
-                < AiOutlineInstagram className="svg" />
+            <span className="Github"   >
+                <a className="Github" href="https://github.com/DIGOARTHUR">github</a>
+                < AiFillGithub className="svg" />
 
             </span>
 

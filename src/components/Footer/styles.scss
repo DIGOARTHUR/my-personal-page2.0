@@ -2,13 +2,16 @@ footer {
   display: flex;
   justify-content: center;
   height: 5%;
-
+  padding-bottom:30px;
   .changeColor:hover {
     color: blue;
   }
 
-
+  span{
+    cursor: pointer
+  }
   
+
 
   .Linkedin {
     gap:2px;
@@ -20,7 +23,7 @@ footer {
     &:hover {
 
       a {
-        transition: color 2s;
+        transition: color 1.5s;
         color: #0077b5;
       }
 
@@ -32,7 +35,49 @@ footer {
     }
   }
 
+  .Email{
+    gap:2px;
+    svg {visibility: hidden;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    &:hover {
+
+      a {
+        transition: color 1.5s;
+        color: #5030e1;
+      }
+
+      svg {
+        transition: fill 2s;
+        visibility: visible;
+        fill: #5030e1;
+      }
+    }
+  }
+
+  .Github{
+    gap:2px;
+    svg {visibility: hidden;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+
+      a {
+        transition: color 1.5s;
+        color: #777777;
+      }
+
+      svg {
+        transition: fill 2s;
+        visibility: visible;
+        fill: #777777;
+      }
+    }
+  }
   .Instagram{
     gap:2px;
     svg {visibility: hidden;}
@@ -43,7 +88,7 @@ footer {
     &:hover {
 
       a {
-        transition: color 2s;
+        transition: color 1.5s;
         color: #e1306c;
       }
 
