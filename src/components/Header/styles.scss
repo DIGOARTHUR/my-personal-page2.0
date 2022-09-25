@@ -3,8 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
-    height: 10%;
-   
+  
 
     .logoName {
         font-size: 32px;
@@ -26,7 +25,11 @@
         display:flex;
         justify-content: center;
         align-items: center;
-        span {
+
+        .aboutLink{
+            text-decoration: none
+        }
+        span { 
             display:flex;
             align-items: center;
             justify-content: center;

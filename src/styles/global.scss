@@ -5,6 +5,7 @@
   --background: #08070b;
   --white: #ffffff;
   --gray: #8F9BA8;
+  --colors-cyan: #80ffea;
   --colors-purple: #9580ff;
   --colors-pink: #ff80bf;
   --colors-green: #8aff80;
@@ -30,6 +31,7 @@ body {
   background-color: var(--background);
   font-family: 'Rubik',sans-serif;
   height: 100vh;
+  
 }
 
 
@@ -49,13 +51,9 @@ button {
 
 
 
-@media only screen and (max-width: 720px) {
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 .container {
   height: 100vh;
+  
 }

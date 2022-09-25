@@ -2,7 +2,7 @@ import './styles.scss'
 
 export function BodyApp() {
 
-    return (
+    return ( 
         <main className="main">
             <div />
             <section className="content" >
