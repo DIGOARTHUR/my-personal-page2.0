@@ -12,18 +12,14 @@ export function Header() {
   }
   return (
     <div className={styles.header}>
-
-      <span className={styles.logoName}>@digoarthur</span>
-
+      <Link href="/" >
+        <span className={styles.logoName}>@digoarthur</span>
+      </Link>
       <nav className={styles.navigation}>
 
         <Link className={activateLink === 'SOBRE' ? styles.activeAboutLink : styles.aboutLink} href="/About" onClick={() => chamada()}>
           <span >SOBRE</span>
         </Link>
-
-
-
-        <span>PROJECTS</span>
 
 
       </nav>

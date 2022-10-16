@@ -3,11 +3,10 @@
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
 
-
-    .link {
-        text-decoration: none;
-        width: 100%;
-    }
+   span{
+    cursor: pointer;
+   }
+  
 
     .logoName {
         font-size: 32px;
