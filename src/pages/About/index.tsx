@@ -35,7 +35,7 @@ export default function About() {
                             <p>Quando não estou trabalhando, desenvolvo projetos pessoais ou de eventos da Rocketseat, Alura, e acompanho novidades sobre a área no Youtube.</p>
                         </div>
                     </section>
-                    <div className="work">
+                    <div className={styles.work}>
                         <h2>Carreira</h2>
 
                         <h3>Developer FrontEnd Jr.</h3>
