@@ -1,0 +1,60 @@
+:root {
+  --purple-light: #5743D1;
+  --green: #3FAD27;
+  --red: #ad273f;
+  --background: #08070b;
+  --white: #ffffff;
+  --gray: #8F9BA8;
+  --colors-cyan: #80ffea;
+  --colors-purple: #9580ff;
+  --colors-pink: #ff80bf;
+  --colors-green: #8aff80;
+  --text: #1C1C29;
+  --text-light: #A09CB1;
+  --fonts-heading: Neuzeit Grotesk Bold, sans-serif;
+}
+
+@media(max-width:1080px) {
+  html {
+    font-size: 93.75%
+  }
+}
+
+@media(max-width:720px) {
+  html {
+    font-size: 87.5%
+  }
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1.5fr 18fr 1fr;
+  background-color: var(--background);
+  font-family: 'Rubik',sans-serif;
+  height: 100vh;
+  
+}
+
+
+
+* {
+  color: var(--gray);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+button {
+  cursor: pointer;
+}
+
+
+
+
+
+.container {
+  height: 100vh;
+  
+}

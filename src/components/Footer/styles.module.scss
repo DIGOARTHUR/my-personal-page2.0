@@ -1,0 +1,191 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  
+    .changeColor:hover {
+      color: blue;
+    }
+  
+    span {
+      cursor: pointer;
+  
+      a {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+    }
+  
+  
+    .Linkedin {
+      gap: 2px;
+  
+      svg {
+        visibility: hidden;
+      }
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &:hover {
+  
+        a {
+          transition: color 1.5s;
+          color: #0077b5;
+        }
+  
+        svg {
+          transition: fill 2s;
+          visibility: visible;
+          fill: #0077b5;
+        }
+      }
+    }
+  
+    .Email {
+      gap: 2px;
+  
+      svg {
+        visibility: hidden;
+      }
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &:hover {
+  
+        a {
+          transition: color 1.5s;
+          color: #5030e1;
+        }
+  
+        svg {
+          transition: fill 2s;
+          visibility: visible;
+          fill: #5030e1;
+        }
+      }
+    }
+  
+    .Github {
+      gap: 2px;
+  
+      svg {
+        visibility: hidden;
+      }
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &:hover {
+  
+        a {
+          transition: color 1.5s;
+          color: #777777;
+        }
+  
+        svg {
+          transition: fill 2s;
+          visibility: visible;
+          fill: #777777;
+        }
+      }
+    }
+  
+    .Instagram {
+      gap: 2px;
+  
+      svg {
+        visibility: hidden;
+      }
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &:hover {
+  
+        a {
+          transition: color 1.5s;
+          color: #e1306c;
+        }
+  
+        svg {
+          transition: fill 2s;
+          visibility: visible;
+          fill: #e1306c;
+        }
+      }
+    }
+  
+  
+    a:first-child  {
+      margin-left: 20px;
+      text-decoration: none;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 900px) {
+    .footerContainer {
+  
+      span{
+        a:first-child {
+          visibility: hidden;
+          cursor: none;
+          width:0;
+        }
+      }
+      svg {
+        height: 21px;
+        width: 21px;
+        transition: fill 2s;
+  
+      }
+  
+      .Linkedin {
+        svg {
+  
+          visibility: visible;
+          fill: #0077b5;
+        }
+  
+      }
+  
+      .Email {
+  
+        svg {
+          visibility: visible;
+          fill: #5030e1;
+        }
+  
+      }
+  
+      .Github {
+  
+        svg {
+  
+          visibility: visible;
+          fill: #777777;
+        }
+  
+      }
+  
+      .Instagram {
+  
+  
+        svg {
+  
+          visibility: visible;
+          fill: #e1306c;
+        }
+  
+      }
+  
+    }
+  }

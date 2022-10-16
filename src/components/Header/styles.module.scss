@@ -1,0 +1,82 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+
+
+    .link {
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .logoName {
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 12px;
+        padding: 0 10px;
+
+        background: linear-gradient(135deg,
+                var(--colors-purple) 0%,
+                var(--colors-pink) 100%);
+        background-size: 100;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        button{
+            width: 100px;
+            height: 100px;
+        }
+        .aboutLink {
+            text-decoration: none;
+            background-color: red;
+        }
+
+        .activeAboutLink {
+            text-decoration: none;
+
+            span {
+                color: var(--white);
+                border-bottom: 2px solid white;
+            }
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            cursor: pointer;
+
+
+            border-radius: 5px;
+            font-size: 13px;
+            padding: 13px;
+            transition: background-color 0.5s;
+
+            &:hover {
+                background-color: #44475a;
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+
+       
+
+
+    }
+}
