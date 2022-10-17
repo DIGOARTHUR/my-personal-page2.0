@@ -4,10 +4,9 @@ import styles from './styles.module.scss'
 
 export default function About() {
     return (
-        <div className={styles.containerAbout}>
+        <div className={styles.aboutContainer}>
             <Header />
-            <div className={styles.containerBody}>
-
+            <main>
                 <div className={styles.contentBody}>
                     <h1>Sobre mim.</h1>
                     <section className={styles.bio}>
@@ -35,7 +34,7 @@ export default function About() {
                             <p>Quando não estou trabalhando, desenvolvo projetos pessoais ou de eventos da Rocketseat, Alura, e acompanho novidades sobre a área no Youtube.</p>
                         </div>
                     </section>
-                    <div className={styles.work}>
+                    <div className={styles.jobs}>
                         <h2>Carreira</h2>
 
                         <h3>Developer FrontEnd Jr.</h3>
@@ -56,7 +55,7 @@ export default function About() {
 
                 </div>
 
-            </div>
+            </main>
             <Footer />
         </div >
     )

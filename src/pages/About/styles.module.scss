@@ -1,8 +1,8 @@
-.containerAbout {
+.aboutContainer {
     display: grid;
     grid-template-rows: 1.5fr 18fr 1fr;
-
-    .containerBody {
+    
+    main {
         margin: auto;
         justify-content: center;
         padding-top: 20px;
@@ -62,7 +62,7 @@
 
             }
 
-            .work {
+            .jobs {
                 h2 {
                     font-size: 24px;
                     margin: 20px 0;
@@ -80,8 +80,8 @@
 }
 
 @media screen and (max-width:760px) {
-    .containerAbout {
-        .containerBody {
+    .aboutContainer {
+        main{
             
             display: flex;
             flex-direction: column;
@@ -102,7 +102,7 @@
 
                 }
 
-                .work{
+                .jobs{
                     padding: 0px 20px;
                 }
 

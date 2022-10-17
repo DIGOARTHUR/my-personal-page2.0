@@ -4,26 +4,23 @@ import { useEffect, useState } from 'react';
 import styles from './styles.module.scss'
 import Link from 'next/link';
 export function Header() {
-  const [activateLink, setActiveLink] = useState('');
+ 
 
-  function chamada() {
-
-    setActiveLink('SOBRE')
-  }
+ 
   return (
-    <div className={styles.header}>
+    <header className={styles.headerContainer}>
       <Link href="/" >
         <span className={styles.logoName}>@digoarthur</span>
       </Link>
       <nav className={styles.navigation}>
 
-        <Link className={activateLink === 'SOBRE' ? styles.activeAboutLink : styles.aboutLink} href="/About" onClick={() => chamada()}>
+        <Link className={styles.aboutLink} href="/About">
           <span >SOBRE</span>
         </Link>
 
 
       </nav>
       <div />
-    </div>
+    </header>
   )
 }
