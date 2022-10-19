@@ -5,7 +5,6 @@ import { Header } from '../components/Header'
 import styles from './home.module.scss'
 import Typical from 'react-typical'
 import TypeWriter from 'typewriter-effect'
-import { TRUE } from 'sass'
 export default function Home() {
 
 
