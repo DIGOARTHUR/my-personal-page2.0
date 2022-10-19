@@ -7,7 +7,7 @@ import styles from './styles.module.scss'
 export function Footer() {
 
     
-
+    
     return (
         <footer className={styles.footerContainer}>
             <span className={styles.Linkedin}    >
