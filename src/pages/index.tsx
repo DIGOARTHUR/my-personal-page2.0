@@ -3,7 +3,6 @@
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import styles from './home.module.scss'
-import Typical from 'react-typical'
 import TypeWriter from 'typewriter-effect'
 export default function Home() {
 
