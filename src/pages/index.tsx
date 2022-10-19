@@ -17,18 +17,19 @@ export default function Home() {
         <section className={styles.contentMain} >
           <h1>Diego Arthur</h1>
           <p>
-            <strong>Front-end Developer | Passionate about React. </strong>
+            <strong>Front-end Developer | Apaixonado por React. </strong>
 
           </p>
           <div className={styles.frase}>
-            <span>Programar... </span>
+            <span>Programação... </span>
             <TypeWriter
+            
               options={{
                 autoStart: true,
                 loop: true,
               }}
               onInit={(typewriter) => {
-                typewriter.changeDelay(30).typeString('É para todos').pauseFor(1000).deleteAll().typeString('Muda o Mundo').pauseFor(1000).deleteAll().start();
+                typewriter.changeDelay(30).typeString(' É conceito Universal 💻').pauseFor(1000).deleteAll().typeString('Muda o Mundo.🌎').pauseFor(1000).deleteAll().typeString('É para todos!🧠').pauseFor(1000).deleteAll().start();
               }}
 
 
