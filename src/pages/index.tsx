@@ -27,7 +27,7 @@ export default function Home() {
                 loop: true,
               }}
               onInit={(typewriter) => {
-                typewriter.changeDelay(30).typeString(' É conceito Universal 💻').pauseFor(1000).deleteAll().typeString('Muda o Mundo.🌎').pauseFor(1000).deleteAll().typeString('É para todos!🧠').pauseFor(1000).deleteAll().start();
+                typewriter.changeDelay(30).typeString('Muda o Mundo.').pauseFor(1000).deleteAll().typeString('Abre a mente.').pauseFor(1000).deleteAll().typeString('É para todos!').pauseFor(1000).deleteAll().start();
               }}
 
 
