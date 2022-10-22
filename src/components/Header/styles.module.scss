@@ -38,18 +38,13 @@
             height: 100px;
         }
 
-        .aboutLink {
-            text-decoration: none;
-            background-color: red;
-        }
+      
 
-        .activeAboutLink {
+        .activeLink {
             text-decoration: none;
-
-            span {
                 color: var(--white);
                 border-bottom: 2px solid white;
-            }
+            
         }
 
         span {

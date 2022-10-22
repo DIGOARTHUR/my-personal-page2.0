@@ -7,6 +7,7 @@ import styles from './styles.module.scss'
 export default function Timeline() {
     let workIconStyles = { background: "#183d33" }
     let schoolIconStyles = { background: "#f9c74f" }
+   
     return (
         <div>
             <h1 className={styles.title}>Universidade</h1>
@@ -37,7 +38,6 @@ export default function Timeline() {
                                     {element.location}
                                 </h5>
                                 {element.type==='Monitoria'|| element.type==='EmpresaJr'|| element.type==='Pesquisa'?<p>Linguagem: {element.language} </p>  :``}
-                                
                                 <p className={styles.description}>{element.description}</p>
                                 {element.type==='Monitoria'|| element.type==='EmpresaJr'|| element.type==='Extensao'?<p>Atividade: {element.activity} </p>  :``} 
                                 {element.type==='Monitoria'||element.type==='Pesquisa'?<p>Orientador: {element.advisor} </p>  :``} 
