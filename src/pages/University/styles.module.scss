@@ -1,0 +1,13 @@
+.universityContainer{
+    display: grid;
+    grid-template-rows: 0.3fr 18fr 1fr;
+    main {
+        margin: auto;
+        justify-content: center;
+        
+        max-width: 1300px;
+        background-color: #18161e36;
+        padding:20px;
+        border-radius:4px;
+    }
+}

@@ -18,6 +18,10 @@ export function Header() {
           <span >SOBRE</span>
         </Link>
 
+        <Link className={styles.aboutLink} href="/University">
+          <span >UNIVERSIDADE</span>
+        </Link>
+
 
       </nav>
       <div />
