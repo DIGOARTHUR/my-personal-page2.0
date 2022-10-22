@@ -41,14 +41,7 @@ export default function Timeline() {
                                 <p className={styles.description}>{element.description}</p>
                                 {element.type==='Monitoria'|| element.type==='EmpresaJr'|| element.type==='Extensao'?<p>Atividade: {element.activity} </p>  :``} 
                                 {element.type==='Monitoria'||element.type==='Pesquisa'?<p>Orientador: {element.advisor} </p>  :``} 
-                                {showButton && (
-                                    <a
-                                        className={`button ${isWorkIcon ? styles.workButton : styles.schoolButton}`}
-                                        href="/"
-                                    >
-                                        {element.buttonText}
-                                    </a>
-                                )}
+                              
                             </VerticalTimelineElement>
                         )
                     })
