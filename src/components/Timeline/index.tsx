@@ -1,22 +1,34 @@
 
 import timelineElements from "./data";
-
+import { FaUniversity } from 'react-icons/fa';
+import { GiMagnifyingGlass, GiTeacher, GiWhiteBook } from 'react-icons/gi';
+import { BiExtension } from 'react-icons/bi';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
 import styles from './styles.module.scss'
 export default function Timeline() {
-    let workIconStyles = { background: "#183d33" }
-    let schoolIconStyles = { background: "#f9c74f" }
-   
+
+
+    let monitoriaIconStyles = { background: "#f1ae2b" }
+    let formacaoIconStyles = { background: "#bc0b27" }
+    let pesquisaIconStyles = { background: "#f4ddb4" }
+    let projetoIconStyles = { background: "#72bca5" }
+    let bookIconStyles = { background: "#4a2512" }
     return (
-        <div>
+        <div className={styles.timelineContainer}>
             <h1 className={styles.title}>Universidade</h1>
             <h5 className={styles.subTitle}>Monitorias, Projetos de Extensão, Pesquisas, Livro</h5>
+            {timelineElements.map((element)=>{
+               
+            })}
             <h2 className={styles.titleTimeLine}>Timeline</h2>
             <VerticalTimeline>
                 {
                     timelineElements.map((element) => {
-                        let isWorkIcon = element.icon === "work"
+
+
+
+
                         let showButton =
                             element.buttonText !== undefined &&
                             element.buttonText !== null &&
@@ -27,7 +39,32 @@ export default function Timeline() {
                                 key={element.title}
                                 date={element.date}
                                 dateClassName="date"
-                                iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+                                iconStyle={
+                                    element.type === 'Formacao' ? formacaoIconStyles
+                                        :
+                                        element.type === 'Pesquisa' ? pesquisaIconStyles
+                                            :
+                                            element.type === 'Monitoria' ? monitoriaIconStyles
+                                                :
+                                                element.type === 'Projeto' ? projetoIconStyles
+                                                    :
+                                                    element.type === 'Livro' ? bookIconStyles
+                                                        :
+                                                        projetoIconStyles
+                                            }
+                                icon={
+                                    element.type === 'Formacao' ? <FaUniversity className={styles.icon} />
+                                        :
+                                        element.type === 'Pesquisa' ? <GiMagnifyingGlass className={styles.icon} />
+                                            :
+                                            element.type === 'Monitoria' ? <GiTeacher className={styles.icon} />
+                                                :
+                                                element.type === 'Projeto' ? <BiExtension className={styles.icon} />
+                                                    :
+                                                    element.type === 'Livro' ? <GiWhiteBook className={styles.icon} />
+                                                        :
+                                                        ''
+                                }
                                 className={styles.time}
 
                             >
@@ -37,16 +74,16 @@ export default function Timeline() {
                                 <h5 className={styles.verticalTimelineElementSubtitle}>
                                     {element.location}
                                 </h5>
-                                {element.type==='Monitoria'|| element.type==='EmpresaJr'|| element.type==='Pesquisa'?<p>Linguagem: {element.language} </p>  :``}
+                                {element.type === 'Monitoria' || element.type === 'Projeto' ? <p>Linguagem: {element.language} </p> : ``}
                                 <p className={styles.description}>{element.description}</p>
-                                {element.type==='Monitoria'|| element.type==='EmpresaJr'|| element.type==='Extensao'?<p>Atividade: {element.activity} </p>  :``} 
-                                {element.type==='Monitoria'||element.type==='Pesquisa'?<p>Orientador: {element.advisor} </p>  :``} 
-                              
+                                {element.type === 'Monitoria' || element.type === 'Projeto' ? <p>Atividade: {element.activity} </p> : ``}
+                                {element.type === 'Monitoria' || element.type === 'Projeto' ? <p>Orientador: {element.advisor} </p> : ``}
+
                             </VerticalTimelineElement>
                         )
                     })
                 }
             </VerticalTimeline>
-        </div>
+        </div >
     )
 }

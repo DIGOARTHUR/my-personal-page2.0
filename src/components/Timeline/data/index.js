@@ -77,7 +77,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    type: "Formação",
+    type: "Formacao",
     title: "Bacharelado em Ciência e Tecnlogia <Engenharia Mecatrônica>",
     location: "Universidade Fedederal de São João del-Rei, UFSJ - Ouro Branco, MG",
     description:
@@ -100,7 +100,7 @@ let timelineElements = [
   },
 
   {
-    type: "Extensao",
+    type: "Projeto",
     title: "Educador de Cursinho Popular - Projeto de Extensão (VOLUNTÁRIO)",
     location: "Instituro Federal de Minas Gerais -OB / Universidade Fedederal de São João del-Rei, UFSJ",
     description:"Cursinho preparatório ENEM para o público de baixa renda de Ouro Branco -MG Lecionei: Matemática. ",
@@ -123,7 +123,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    type: "EmpresaJr",
+    type: "Projeto",
     title: "Assessor de projetos (VOLUNTÁRIO)",
     location: "Tristate - Consultoria em Engenharia Mecatrônica - UFSJ",
     language: "Em Blocos",
@@ -143,17 +143,17 @@ let timelineElements = [
     activity:"Acompanhamento em estudos e trabalhos práticos dos discentes",
     advisor:"Prof. Dr.Thiago Rodrigues de Oliveira",
     date: "ago de 2017 - dez de 2017 · 5 meses",
-    icon: "school",
+   
   },
   {
-    type: "Formação",
+    type: "Formacao",
     title: "Engenharia Mecatrônica - UFSJ",
     location: "Ouro Branco, MG",
     description:
       "Universidade Federal de São João del-Rei. Entrada para o Curso de Engenharia Mecatrônica, onde também obtive a sub formação na área da Tecnologia que possuo hoje. Não formei no Curso principal.",
     buttonText: "Site UFSJ",
     date: "ago 2015",
-    icon: "school",
+    
   }
 ]
 
