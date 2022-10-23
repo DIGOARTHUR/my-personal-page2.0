@@ -18,9 +18,7 @@ export default function Timeline() {
         <div className={styles.timelineContainer}>
             <h1 className={styles.title}>Universidade</h1>
             <h5 className={styles.subTitle}>Monitorias, Projetos de Extensão, Pesquisas, Livro</h5>
-            {timelineElements.map((element)=>{
-               
-            })}
+           
             <h2 className={styles.titleTimeLine}>Timeline</h2>
             <VerticalTimeline>
                 {
