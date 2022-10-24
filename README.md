@@ -185,7 +185,8 @@ git remote -v
 
 
  ---
-Essa aplicação fiz e estou fazendo com muito carinho. Estou buscando deixar cada vez mais com a minha identidade, do meu jeito.
+
+   > Esta aplicação foi feita e readaptada com muito carinho. 💜
   
   
   
