@@ -178,12 +178,12 @@ git remote -v
 
 
 
- # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por quê?  <!---write here : motivation that led to created ; why did you do this program?   -->
-
-
+# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197643886-779de461-9dd9-4aa7-a904-177fd5e38cd0.png">  Por que? <!---write here :  motivation that led to created ; why did you do this program?  -->
  ---
 
-   > Esta aplicação foi feita e readaptada com muito carinho. 💜
+> Esta aplicação foi feita e readaptada com muito carinho para refletir um pouco sobre o meu eu. 💜
+
+   
   
   
   
