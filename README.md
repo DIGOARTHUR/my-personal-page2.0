@@ -38,15 +38,13 @@ https://simpleicons.org/?q=react
 </p>
   
 
-   <!------------------------------------SHIELDS STACKS-->
-   
-
  
 
  <!------------------------------------TOOLS-->
  #### Tools:
  <a href="https://code.visualstudio.com/"><img  alt="Vscode"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663512-3f83da57-bdfe-4cef-bcc2-feb304a738ff.png"><a/>
- <a href="https://git-scm.com/"><img  alt="Git"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149677999-f5947f0b-e535-4ba2-911c-1c5926045c35.png"><a/>        
+ <a href="https://git-scm.com/"><img  alt="Git"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149677999-f5947f0b-e535-4ba2-911c-1c5926045c35.png"><a/>
+  <a href="https://yarnpkg.com"><img  alt="Git"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/197615074-2e78b82c-b853-455c-8920-272cf1ce6399.svg"><a/>  
      
 <hr>
   
@@ -67,7 +65,7 @@ https://simpleicons.org/?q=react
    <!------------------------------------DESCRIPTION-->
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação <!---write here : talk a little about project: what's does, example.  -->
-> Template baseado na página pessoal do Biro Biro da Rockeseat. É uma página pessoal com a finalidade de apresentar carreira, estudos, projetos, gostos, etc... A partir de toda uma adaptação e seguindo a estrutura visual, esta aplicação será sempre trabalhada de acordo com a necessidade de conteúdos.
+> Template baseado na página pessoal do Biro Biro da Rocketseat. É uma página pessoal com a finalidade de apresentar carreira, estudos, projetos, gostos, etc... A partir de toda uma adaptação e seguindo a estrutura visual, esta aplicação será sempre trabalhada de acordo com a necessidade de conteúdos.
   
   
 <!------------------------------------LAYOUT -->
@@ -105,31 +103,31 @@ https://simpleicons.org/?q=react
   
   <!------------------------------------PRODUCTION SKILLS-->
 
-## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197570770-821e1588-e8fe-4198-97b3-bb6ed6f1dc29.svg"> Stacks e Libs: <!---write here: learned concepts; -->
+## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks e Libs: <!---write here: learned concepts; -->
 
 ### Lógica 
 *  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
    * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
    
 ### Estilização 
-* CSS
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
   * [`Global Style`]()
      * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
      * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
   * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
-* SASS
+* <a href="https://sass-lang.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Sass-/?logo=Sass&logoColor=white&color=ff69b4)<a/> 
   * [`Global Style`]()
      * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
      * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
   * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
    
 ### Framework & Libs
-* [`NextJS`](https://nextjs.org/docs/getting-started) 
+* <a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
   * `Estrutura` (Estruturação de pastas e arquivos)
   * `Evitar conflito CSS`(.modules) 
   * `Link` (Aplicação de rotas)    
    
-* <a href="https://devdigoarthur.notion.site/Router-be30e083aad146eea64c89258434a024"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=CreateReactApp&logoColor=white&color=blue)<a/> 
+* <a href="https://reactjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=React&logoColor=white&color=blue)<a/> 
   * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
 
