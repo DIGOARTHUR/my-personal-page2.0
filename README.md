@@ -108,8 +108,8 @@ https://simpleicons.org/?q=react
 ## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197570770-821e1588-e8fe-4198-97b3-bb6ed6f1dc29.svg"> Stacks e Libs: <!---write here: learned concepts; -->
 
 ### Lógica 
-* JavaScript
-  * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
+*  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
+   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
    
 ### Estilização 
 * CSS
@@ -129,7 +129,7 @@ https://simpleicons.org/?q=react
   * `Evitar conflito CSS`(.modules) 
   * `Link` (Aplicação de rotas)    
    
-* [`React`]([https://nextjs.org/docs/getting-started](https://reactjs.org)) 
+* <a href="https://devdigoarthur.notion.site/Router-be30e083aad146eea64c89258434a024"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=CreateReactApp&logoColor=white&color=blue)<a/> 
   * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
 
