@@ -116,10 +116,7 @@ https://simpleicons.org/?q=react
      * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
   * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
 * <a href="https://sass-lang.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Sass-/?logo=Sass&logoColor=white&color=ff69b4)<a/> 
-  * [`Global Style`]()
-     * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
-     * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
-  * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
+  * [`Estilo Encadeado`]()
    
 ### Framework & Libs
 * <a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
