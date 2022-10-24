@@ -1,34 +1,196 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- VISUALIZAR NO VSCODE  CTRL + K  V -->
 
-## Getting Started
+<!-- BADGES https://www.youtube.com/watch?v=cRoBt6AZgjc
+https://dev.to/envoy_/150-badges-for-github-pnk
 
-First, run the development server:
+BUILD BADGES
+https://shields.io
+ICONS
+https://simpleicons.org/?q=react
+-->
 
-```bash
-npm run dev
-# or
+ <!------------------------------------BANNER PROJECT-->
+
+
+
+
+
+
+ <!------------------------------------SHIELDS PROJECT-->
+  ![GitHub last commit](https://img.shields.io/github/last-commit/digoarthur/personWebsite)
+  ![GitHub](https://img.shields.io/github/license/digoarthur/personWebsite)
+  
+  
+
+ <!------------------------------------STACKS-->
+#### Stacks:
+<p align="left">
+
+ <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="HTML5"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663188-8298a9bf-f3ce-4881-944f-e94edf37beed.png"><a/>
+   <a href="https://github.com/braziljs/eloquente-javascript"><img  alt="Javascript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663192-19043371-127c-47f0-8553-0f407c51e2c5.png"><a/>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img  alt="CSS3"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663193-40e11362-c724-49cf-a0b5-a20f98c8e4ba.png"><a/>
+   <a href="https://pt-br.reactjs.org/"><img  alt="ReactJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/110185477-3255b480-7df1-11eb-8399-07a57b05eefb.png"><a/>
+   <a href="https://www.typescriptlang.org/"><img  alt="TypeScript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149662563-c86be27c-b905-4aaf-b726-fb1146465ea7.png"><a/>
+   <a href="https://nextjs.org/"><img  alt="NextJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/152626659-7431e51e-e4ea-4ee5-baf9-c916ccd72ae9.png"><a/>
+    <a href="https://sass-lang.com"><img  alt="Sass"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/197538138-4aac6895-cad3-40af-a9c8-f51a22aa680a.png"><a/>
+       <a href="https://react-icons.github.io/react-icons/"><img  alt="React-Icons"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/197551891-5fcd2eca-9cd9-4dfd-88b9-7b0f533d4d73.png"><a/>
+   
+</p>
+  
+
+   <!------------------------------------SHIELDS STACKS-->
+   
+
+ 
+
+ <!------------------------------------TOOLS-->
+ #### Tools:
+ <a href="https://code.visualstudio.com/"><img  alt="Vscode"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663512-3f83da57-bdfe-4cef-bcc2-feb304a738ff.png"><a/>
+ <a href="https://git-scm.com/"><img  alt="Git"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149677999-f5947f0b-e535-4ba2-911c-1c5926045c35.png"><a/>        
+     
+<hr>
+  
+  <!------------------------------------PROJECT ICON-->
+  
+
+   <!------------------------------------SUMMARY-->
+<p align="center">
+  <a href="https://github.com/DIGOARTHUR/Dashgo#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Dashgo#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Dashgo#-pontos-abordados-">Stacks e Libs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Dashgo#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/Dashgo#-por-quê--">Por quê?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>  
+
+  
+  
+   <!------------------------------------DESCRIPTION-->
+
+# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação <!---write here : talk a little about project: what's does, example.  -->
+> Template baseado na página pessoal do Biro Biro da Rockeseat. É uma página pessoal com a finalidade de apresentar carreira, estudos, projetos, gostos, etc... A partir de toda uma adaptação e seguindo a estrutura visual, esta aplicação será sempre trabalhada de acordo com a necessidade de conteúdos.
+  
+  
+<!------------------------------------LAYOUT -->
+
+
+## FIGMA 
+# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/149667468-f228e4e8-c2f0-474d-858d-6b9216f49b2f.png">  Interfaces <!---write here : demonstration of the application layout.  -->
+  
+<a href="https://www.figma.com/file/YM4JFm0d4b4TovqmCNrgRW/ig.news?node-id=1%3A2" target="_blank"><img alt="Figma" src="https://img.shields.io/badge/figma%20-%23F24E1E.svg?&style=for-the-badge&logo=figma&logoColor=white"/></a>
+
+    
+
+## DESKTOP
+  
+|                             Tela Principal                             |
+| :-------------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/197564641-13a377f4-cdeb-48d5-ab6b-42a1e4d3298e.gif) |
+
+  
+  |                               Sobre                              |
+| :-------------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/197567841-ed38d6c6-cabb-47a9-a795-508ae3b646d9.png)|
+
+  
+|                                 Universidade                     |
+| :--------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/197568006-10b15226-8ffe-4914-bca6-60cf1d1e18c4.png)|
+  
+
+  
+
+
+  
+  
+  
+  <!------------------------------------PRODUCTION SKILLS-->
+
+## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Pontos Abordados: <!---write here: learned concepts; -->
+
+### Lógica 
+* JavaScript
+  * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
+   
+### Estilização 
+* CSS
+  * [`Global Style`]()
+     * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
+     * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
+  * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
+* SASS
+  * [`Global Style`]()
+     * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
+     * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
+  * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
+   
+### Framework & Libs
+* [`NextJS`](https://nextjs.org/docs/getting-started) 
+  * `Estrutura` (Estruturação de pastas e arquivos)
+  * `Evitar conflito CSS`(.modules) 
+  * `Link` (Aplicação de rotas)    
+   
+* [`React`]([https://nextjs.org/docs/getting-started](https://reactjs.org)) 
+  * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
+  * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
+
+*  [`React-Icons`](https://chakra-ui.com) (Biblioteca de icones)
+*  [`typewriter-effect`](https://www.npmjs.com/package/typewriter-effect) (Biblioteca utilizada para dar efeito de digitação)
+*  [`react-vertical-timeline-component`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Biblioteca usada para construir a Timeline utilizada da Page Universidade) 
+  
+ 
+  <!------------------------------------RUN APP-->
+ 
+ # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142216697-dd93272c-c614-4664-9d63-c4e4dfc3e0f3.gif"> Rodando a Aplicação
+ 
+
+1. Clonar repositório:
+
+```
+git clone https://github.com/DIGOARTHUR/personWebsite.git
+```
+
+2. Instalar dependências
+
+```
+yarn install
+```
+
+3. Rodar aplicativo
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Acesse `http://localhost:3000/` e navegue pelo site
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+:warning: 5. Trocar URL do repositorio remoto (caso necessário)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+  5.1 Ver qual o repositorio atual
+```
+git remote -v
+```
+  5.2 Mudar a URL do repositorio remoto
+```
+git remote set-url origin <LinkDoNovoRepositorio>
+```
+  5.3 Verifique se a mudança foi realizada
+```
+git remote -v
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+  <!------------------------------------WHY/THANKS->
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por quê?  <!---write here : motivation that led to created ; why did you do this program?   -->
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ ---
+Essa aplicação fiz e estou fazendo com muito carinho. Estou buscando deixar cada vez mais com a minha identidade, do meu jeito.
+  
+  
+  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
