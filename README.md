@@ -55,7 +55,7 @@ https://simpleicons.org/?q=react
 
    <!------------------------------------SUMMARY-->
 <p align="center">
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/personWebsite#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Dashgo#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Dashgo#-pontos-abordados-">Stacks e Libs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Dashgo#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -105,7 +105,7 @@ https://simpleicons.org/?q=react
   
   <!------------------------------------PRODUCTION SKILLS-->
 
-## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Pontos Abordados: <!---write here: learned concepts; -->
+## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Stacks e Libs: <!---write here: learned concepts; -->
 
 ### Lógica 
 * JavaScript
