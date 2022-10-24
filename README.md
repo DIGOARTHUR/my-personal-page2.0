@@ -105,7 +105,7 @@ https://simpleicons.org/?q=react
   
   <!------------------------------------PRODUCTION SKILLS-->
 
-## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Stacks e Libs: <!---write here: learned concepts; -->
+## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197570770-821e1588-e8fe-4198-97b3-bb6ed6f1dc29.svg"> Stacks e Libs: <!---write here: learned concepts; -->
 
 ### Lógica 
 * JavaScript
