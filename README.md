@@ -57,7 +57,7 @@ https://simpleicons.org/?q=react
   <a href="https://github.com/DIGOARTHUR/personWebsite#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/personWebsite#-stacks-e-libs-">Stacks e Libs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/personWebsite#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- 
+  <a href="https://github.com/DIGOARTHUR/personWebsite#--por-que-">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>  
 
   
