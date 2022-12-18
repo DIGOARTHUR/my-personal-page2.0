@@ -4,16 +4,16 @@ import styles from './styles.module.scss'
 
 export default function About() {
     return (
-        <div className={styles.aboutContainer}>
+        <div className={styles.about_Container}>
             <Header />
-            <main>
-                <div className={styles.contentBody}>
+            <main className={styles.main_Container}> 
+                <div className={styles.main_Content}>
                     <h1>Sobre mim.</h1>
                     <section className={styles.bio}>
                         <img src="https://user-images.githubusercontent.com/59892368/192088757-e8a5cc7f-3c4c-4eda-b896-2ecb94f8e015.JPG"></img>
                         <div className={styles.description}>
-                            <p>Meu nome é <b>Diego Arthur</b> , e tenho <b>29 anos</b></p>
-                            <p> Sou programador front-end, apaixonado por ensinar e por tudo que envolva tecnologia. Meu primeiro emprego foi utilizando a tecnologia SAPUI5, mas atualmente me especializo em: <i>HTML</i>, <i>JavaScript</i>, <i>CSS</i>, <i>ReactJS</i>, <i>TypeScript</i>.</p>
+                            <p>Meu nome é <b>Diego Arthur</b> e tenho <b>29 anos</b></p>
+                            <p> Sou programador front-end, apaixonado por ensinar e por tudo que envolva tecnologia. Meu primeiro emprego foi utilizando a tecnologia <a href="https://ui5.sap.com/">SAPUI5</a>, mas atualmente me especializo em: <i>HTML</i>, <i>JavaScript</i>, <i>CSS</i>, <i>ReactJS</i>, <i>TypeScript</i>.</p>
                             <div className={styles.stackIcons}>
                                 <a >
                                     <img src="https://user-images.githubusercontent.com/59892368/193366561-0826e4e9-0401-4b1e-9899-2b3d2580a402.svg"></img>

@@ -11,7 +11,7 @@ export function Header() {
   console.log(asPath);
 
   return (
-    <header className={styles.headerContainer}>
+    <header className={styles.header_Container}>
       <Link href="/" >
         <span className={styles.logoName}>@digoarthur</span>
       </Link>
@@ -27,7 +27,7 @@ export function Header() {
 
 
       </nav>
-      <div />
+      
     </header>
   )
 }

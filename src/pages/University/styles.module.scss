@@ -1,15 +1,18 @@
-
-.universityContainer{
+.university_Container {
     display: grid;
-    grid-template-rows: 0fr 18fr 0fr;
-    
-    main {
+    grid-template-rows: 1fr 20fr 1fr;
+    height: 100vh;
+    .main_Container {
+        align-items: center;
         margin: auto;
         justify-content: center;
-        margin-bottom:10px;
         max-width: 1300px;
         background-color: #18161e36;
-        padding:20px;
-        border-radius:4px;
+        padding: 20px;
+        border-radius: 4px;
     }
+}
+
+@media screen and (max-width:760px) {
+
 }

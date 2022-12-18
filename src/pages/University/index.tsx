@@ -5,9 +5,9 @@ import Timeline from '../../components/Timeline'
 import styles from './styles.module.scss'
 export default function University(){
     return(
-        <div className={styles.universityContainer}>
+        <div className={styles.university_Container}>
         <Header/>
-        <main>
+        <main className={styles.main_Container}>
             <Timeline/>
         </main>
         <Footer/>

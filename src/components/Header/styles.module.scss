@@ -1,15 +1,17 @@
-.headerContainer {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+.header_Container {
+   
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: 59px;
-
+    
     span {
         cursor: pointer;
     }
 
     
         .logoName{
+            margin: 15px 0;
             font-size: 32px;
             font-weight: bold;
             margin-left: 12px;
@@ -70,12 +72,10 @@
 }
 
 @media screen and (max-width: 900px) {
-    .headerContainer {
+    .header_Container {
         display: flex;
         flex-direction: column;
-
-        .logoName {
-           
-        }
+        margin: 20px 0;
+        
     }
 }

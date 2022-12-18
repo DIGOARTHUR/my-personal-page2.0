@@ -2,23 +2,23 @@
 
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import styles from './home.module.scss'
+import styles from './styles.module.scss'
 import TypeWriter from 'typewriter-effect'
 export default function Home() {
 
 
   return (
-    <div className={styles.containerHome}>
+    <div className={styles.home_Container}>
       <Header />
-      <main className={styles.main}>
-        <div />
-        <section className={styles.contentMain} >
+      <main className={styles.main_Container}>
+       
+        <section className={styles.main_Content} >
           <h1>Diego Arthur</h1>
           <p>
             <strong>Front-end Developer | Apaixonado por React. </strong>
 
           </p>
-          <div className={styles.frase}>
+          <div className={styles.typeWriter_Container}>
             <span>Programação... </span>
             <TypeWriter
             
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           
         </section>
-        <div />
+      
       </main>
       <Footer />
 
