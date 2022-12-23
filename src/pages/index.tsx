@@ -15,7 +15,7 @@ export default function Home() {
         <section className={styles.main_Content} >
           <h1>Diego Arthur</h1>
           <p>
-            <strong>Front-end Developer | Apaixonado por React. </strong>
+            <strong>Front-end Developer | Apaixonado por Tecnologias. </strong>
 
           </p>
           <div className={styles.typeWriter_Container}>

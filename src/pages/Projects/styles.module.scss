@@ -1,0 +1,123 @@
+.projects_Container {
+    display: grid;
+    grid-template-rows: 1fr 20fr 1fr;
+    height: 100vh;
+
+    .main_Container {
+        margin: auto;
+        height: 100%;
+        padding-top: 20px;
+        max-width: 860px;
+        background-color: #18161e36;
+        padding: 20px;
+        border-radius: 4px;
+
+        .main_Content {
+            padding: 20px 0px;
+            width: 100%;
+
+            h1 {
+                margin-bottom: 20px;
+                font-size: 43px;
+                background: linear-gradient(135deg, var(--colors-cyan) 0%, var(--colors-green) 100%);
+                background-size: 100;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            p {
+                font-size: 16px;
+
+                strong {
+                    color: white
+                }
+            }
+
+            .card_Container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                align-items: center;
+
+
+                .card {
+                    display: grid;
+                    grid-template-rows: 1fr 1fr 7fr 1fr;
+                    border-radius: 8px;
+                    padding: 15px;
+                    text-decoration: none;
+                    height: 300px;
+                    max-width: 256px;
+
+
+                    &:hover {
+                        background-color: #3637383f;
+                        border: 1px solid white;
+                    }
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                    }
+
+                    h2 {
+                        margin: 10px 0;
+                        font-family: Biotif, sans-serif;
+                        ;
+                        font-size: 18px;
+                        color: white;
+                    }
+
+                    p {
+                        font-family: Biotif, sans-serif;
+
+                        font-size: 16px;
+                        line-height: 25px;
+
+
+                    }
+
+                    .card_Footer {
+                        margin-top: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        gap: 5px;
+
+                        img {
+
+                            height: 20px;
+                            width: 20px;
+
+
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width:550px) {
+    .projects_Container {
+        .main_Container {
+            .main_Content {
+                .card_Container {
+                    gap: 5px;
+                    .card {
+                        max-width: 100%;
+                        height: 240px;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+}
