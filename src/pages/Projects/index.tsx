@@ -20,13 +20,7 @@ export default function Projects() {
 
     const [projects, setProjects] = useState<Provider[]>([])
 
-    useEffect(() => {
-        fetch('https://api.github.com/users/digoarthur/repos')
-            .then(response => response.json())
-            .then(data => setProjects(data.filter((item: Provider) => {
-                return item.topics.includes('deploy' as never)
-            })))
-    }, [])
+  
     return (
 
         <div className={styles.projects_Container}>
