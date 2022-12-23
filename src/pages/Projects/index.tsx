@@ -1,10 +1,9 @@
 
+/* eslint-disable @next/next/no-img-element */
 import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
 import Timeline from '../../components/Timeline'
 import styles from './styles.module.scss'
-import projectsElements from './data'
-import { title } from 'process'
 import { useEffect, useState } from 'react'
 import nameSkill from '../../utils/nameSkills'
 export default function Projects() {
