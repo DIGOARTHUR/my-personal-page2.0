@@ -16,6 +16,7 @@ export default function Projects() {
         id:number;
         
       }
+    
   
     const [projects, setProjects] = useState<Provider[]>([])
 
@@ -23,7 +24,7 @@ export default function Projects() {
         fetch('https://api.github.com/users/digoarthur/repos')
             .then(response => response.json())
             .then(data => setProjects(data.filter((item:Provider)=>{
-                return item.topics.includes('deploy')
+                return item.topics.includes('tagDeploy' as never)
                })))
     }, [])
     return (
