@@ -1,6 +1,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 import { Footer } from '../../components/Footer'
+import Image from 'next/image'
 import { Header } from '../../components/Header'
 import styles from './styles.module.scss'
 import { useEffect, useState } from 'react'
@@ -20,7 +21,13 @@ export default function Projects() {
 
     const [projects, setProjects] = useState<Provider[]>([])
 
-  
+    useEffect(() => {
+        fetch('https://api.github.com/users/digoarthur/repos')
+            .then(response => response.json())
+            .then(data => setProjects(data.filter((item: Provider) => {
+                return item.topics.includes('deploy' as never)
+            })))
+    }, [])
     return (
 
         <div className={styles.projects_Container}>
@@ -38,7 +45,7 @@ export default function Projects() {
                                     {
                                         element.topics.map((item) => {
                                             return (
-                                                iconsProjects[item] ? (<img key={item} src={iconsProjects[item]}></img>) : ''
+                                                iconsProjects[item] ? (  <picture><img key={item} src={iconsProjects[item]}></img> </picture>) : ''
                                             )
                                         })
                                     }
@@ -49,7 +56,9 @@ export default function Projects() {
                                             element.topics.map((item) => {
                                                 return (
                                                     item == "deploy" || iconsProjects[item] ? '' : (
+                                                        <picture>
                                                         <img key={item} src={nameSkills[item]}></img>
+                                                        </picture>
                                                     )
                                                 )
                                             })
