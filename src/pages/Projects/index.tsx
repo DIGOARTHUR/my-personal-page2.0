@@ -13,6 +13,7 @@ export default function Projects() {
         topics:[];
         html_url:string;
         description:string;
+        id:number;
         
       }
   
@@ -38,7 +39,7 @@ export default function Projects() {
                     <div className={styles.card_Container}>
                         {projects.map((element) => {
                             return (
-                                <a href={element.html_url} className={styles.card}>
+                                <a key={element.id} href={element.html_url} className={styles.card}>
                                        {
                                         element.topics.map((item)=>{
                                             return (
