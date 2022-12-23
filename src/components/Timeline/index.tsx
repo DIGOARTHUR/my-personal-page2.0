@@ -1,5 +1,5 @@
 
-import timelineElements from "./data";
+import timelineElements from "../../pages/University/data";
 import { FaUniversity } from 'react-icons/fa';
 import { GiMagnifyingGlass, GiTeacher, GiWhiteBook } from 'react-icons/gi';
 import { BiExtension } from 'react-icons/bi';
@@ -14,18 +14,16 @@ export default function Timeline() {
     let pesquisaIconStyles = { background: "#f4ddb4" }
     let projetoIconStyles = { background: "#72bca5" }
     let bookIconStyles = { background: "#4a2512" }
+
     return (
         <div className={styles.timelineContainer}>
             <h1 className={styles.title}>Universidade</h1>
             <h5 className={styles.subTitle}>Monitorias, Projetos de Extensão, Pesquisas, Livro</h5>
-           
+
             <h2 className={styles.titleTimeLine}>Timeline</h2>
             <VerticalTimeline>
                 {
                     timelineElements.map((element) => {
-
-
-
 
                         let showButton =
                             element.buttonText !== undefined &&
@@ -49,7 +47,7 @@ export default function Timeline() {
                                                     element.type === 'Livro' ? bookIconStyles
                                                         :
                                                         projetoIconStyles
-                                            }
+                                }
                                 icon={
                                     element.type === 'Formacao' ? <FaUniversity className={styles.icon} />
                                         :

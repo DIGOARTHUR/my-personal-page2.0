@@ -1,4 +1,4 @@
-let timelineElements = [
+const timelineElements = [
 
   {
     type: "Livro",

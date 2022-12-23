@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import styles from './styles.module.scss'
 
-export default function About() {
+export default function Aboutme() {
     return (
         <div className={styles.about_Container}>
             <Header />
@@ -10,7 +10,7 @@ export default function About() {
                 <div className={styles.main_Content}>
                     <h1>Sobre mim.</h1>
                     <section className={styles.bio}>
-                        <img src="https://user-images.githubusercontent.com/59892368/192088757-e8a5cc7f-3c4c-4eda-b896-2ecb94f8e015.JPG"></img>
+                        <img src="https://user-images.githubusercontent.com/59892368/192088757-e8a5cc7f-3c4c-4eda-b896-2ecb94f8e015.JPG"/>
                         <div className={styles.description}>
                             <p>Meu nome é <b>Diego Arthur</b> e tenho <b>29 anos</b></p>
                             <p> Sou programador front-end, apaixonado por ensinar e por tudo que envolva tecnologia. Meu primeiro emprego foi utilizando a tecnologia <a href="https://ui5.sap.com/">SAPUI5</a>, mas atualmente me especializo em: <i>HTML</i>, <i>JavaScript</i>, <i>CSS</i>, <i>ReactJS</i>, <i>TypeScript</i>.</p>
