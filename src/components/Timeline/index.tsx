@@ -1,5 +1,5 @@
 
-import timelineElements from "../../pages/University/data";
+import timelineElements from "./data/index";
 import { FaUniversity } from 'react-icons/fa';
 import { GiMagnifyingGlass, GiTeacher, GiWhiteBook } from 'react-icons/gi';
 import { BiExtension } from 'react-icons/bi';
