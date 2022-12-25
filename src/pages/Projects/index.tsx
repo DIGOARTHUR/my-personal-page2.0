@@ -7,8 +7,12 @@ import styles from './styles.module.scss'
 import { useEffect, useState } from 'react'
 import nameSkills from '../../utils/nameSkills'
 import iconsProjects from '../../utils/iconsProjects'
+import useReposGitHub from '../../hooks/useReposGithub'
 export default function Projects() {
 
+const [dataReposGithub]=useReposGitHub()
+
+    
     interface Provider {
         name: string;
         topics: [];
@@ -24,10 +28,13 @@ export default function Projects() {
     useEffect(() => {
         fetch('https://api.github.com/users/digoarthur/repos')
             .then(response => response.json())
-            .then(data => setProjects(data.filter((item: Provider) => {
-                return item.topics.includes('deploy' as never)
-            })))
+            .then(data =>setProjects(dataReposGithub(data,'deploy')))
     }, [])
+
+   
+   
+
+  
     return (
 
         <div className={styles.projects_Container}>
@@ -45,7 +52,7 @@ export default function Projects() {
                                     {
                                         element.topics.map((item) => {
                                             return (
-                                                iconsProjects[item] ? (  <picture><img key={item} src={iconsProjects[item]}></img> </picture>) : ''
+                                                iconsProjects[item] ? (  <picture key={item}><img  src={iconsProjects[item]}></img> </picture>) : ''
                                             )
                                         })
                                     }
@@ -56,8 +63,8 @@ export default function Projects() {
                                             element.topics.map((item) => {
                                                 return (
                                                     item == "deploy" || iconsProjects[item] ? '' : (
-                                                        <picture>
-                                                        <img key={item} src={nameSkills[item]}></img>
+                                                        < picture key={item}>
+                                                        <img  src={nameSkills[item]}></img>
                                                         </picture>
                                                     )
                                                 )
