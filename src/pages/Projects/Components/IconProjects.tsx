@@ -2,13 +2,13 @@ import useGithubRepos from "../../../hooks/useReposGithub"
 
 
 
-const { iconSkills,iconsProjects } = useGithubRepos()
+
 
 type Props = {
     iconItem:string
 }
 export default function IconProjects( {iconItem }: Props) {
-
+    const { iconSkills,iconsProjects } = useGithubRepos()
     return (
 
         iconItem  == "deploy" || iconsProjects[iconItem as never] ?  (<></>) : (
