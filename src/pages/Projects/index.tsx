@@ -62,9 +62,10 @@ const {dataReposGithub,iconSkills,iconsProjects}=useGithubRepos()
                                         {
                                             element.topics.map((item) => {
                                                 return (
+                                                   
                                                   //  item == "deploy" || iconsProjects[item] ? '' : (
                                                         < picture key={item}>
-                                                       
+                                                      
                                                         <IconSkill iconItem={item}/>
                                                         </picture>
                                                  //   )
