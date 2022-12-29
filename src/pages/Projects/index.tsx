@@ -5,12 +5,12 @@ import Image from 'next/image'
 import { Header } from '../../components/Header'
 import styles from './styles.module.scss'
 import { useEffect, useState } from 'react'
-import nameSkills from '../../utils/nameSkills'
-import iconsProjects from '../../utils/iconsProjects'
-import useReposGitHub from '../../hooks/useReposGithub'
+
+import useGithubRepos from '../../hooks/useReposGithub'
+import IconSkill from './Components/IconSkill'
 export default function Projects() {
 
-const [dataReposGithub]=useReposGitHub()
+const {dataReposGithub,iconSkills,iconsProjects}=useGithubRepos()
 
     
     interface Provider {
@@ -31,7 +31,7 @@ const [dataReposGithub]=useReposGitHub()
             .then(data =>setProjects(dataReposGithub(data,'deploy')))
     }, [])
 
-   
+
    
 
   
@@ -62,11 +62,12 @@ const [dataReposGithub]=useReposGitHub()
                                         {
                                             element.topics.map((item) => {
                                                 return (
-                                                    item == "deploy" || iconsProjects[item] ? '' : (
+                                                  //  item == "deploy" || iconsProjects[item] ? '' : (
                                                         < picture key={item}>
-                                                        <img  src={nameSkills[item]}></img>
+                                                       
+                                                        <IconSkill iconItem={item}/>
                                                         </picture>
-                                                    )
+                                                 //   )
                                                 )
                                             })
                                         }
