@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function useGithubRepos() {
+export function useGithubAutomatedRepos() {
 
     interface IGithubRepos {
         name: string;
@@ -54,19 +54,6 @@ export default function useGithubRepos() {
     };
    
 
-    /*
-    const indexSubs = data.map((item)=>{
-        return item.topics.indexOf('deploy') 
-      })
-      
-      
-      
-       data.forEach((item,index)=>{
-        return item.topics.splice(indexs[index],1)
-      })
-      
-      console.log(data)
-*/
 
     return {
         'dataReposGithub': dataReposGithub,

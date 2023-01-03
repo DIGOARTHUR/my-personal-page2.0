@@ -1,4 +1,4 @@
-import useGithubRepos from "../../../hooks/useReposGithub"
+import {useGithubAutomatedRepos} from "../../../hooks/useGithubAutomatedRepos"
 
 
 
@@ -7,8 +7,8 @@ import useGithubRepos from "../../../hooks/useReposGithub"
 type Props = {
     iconItem: string
 }
-export default function IconSkill({ iconItem }: Props) {
-    const { iconSkills, iconsProjects } = useGithubRepos()
+export function IconSkill({ iconItem }: Props) {
+    const { iconSkills, iconsProjects } = useGithubAutomatedRepos()
     return (
         iconItem == "deploy" || iconsProjects[iconItem as never] ? (<></>) : (
 

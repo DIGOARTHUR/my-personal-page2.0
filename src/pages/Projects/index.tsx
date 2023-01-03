@@ -6,20 +6,20 @@ import { Header } from '../../components/Header'
 import styles from './styles.module.scss'
 import { useEffect, useState } from 'react'
 
-import useGithubRepos from '../../hooks/useReposGithub'
-import IconSkill from './Components/IconSkill'
+import {useGithubAutomatedRepos} from '../../hooks/useGithubAutomatedRepos'
+import {IconSkill} from './Components/IconSkill'
+import {IconProjects} from './Components/IconProjects'
 export default function Projects() {
 
-const {dataReposGithub,iconSkills,iconsProjects}=useGithubRepos()
+    const { dataReposGithub} = useGithubAutomatedRepos()
 
-    
+
     interface Provider {
         name: string;
         topics: [];
         html_url: string;
         description: string;
         id: number;
-
     }
 
 
@@ -28,15 +28,10 @@ const {dataReposGithub,iconSkills,iconsProjects}=useGithubRepos()
     useEffect(() => {
         fetch('https://api.github.com/users/digoarthur/repos')
             .then(response => response.json())
-            .then(data =>setProjects(dataReposGithub(data,'deploy')))
+            .then(data => setProjects(dataReposGithub(data, 'deploy')))
     }, [])
 
-
-   
-
-  
     return (
-
         <div className={styles.projects_Container}>
             <Header />
 
@@ -52,7 +47,9 @@ const {dataReposGithub,iconSkills,iconsProjects}=useGithubRepos()
                                     {
                                         element.topics.map((item) => {
                                             return (
-                                                iconsProjects[item] ? (  <picture key={item}><img  src={iconsProjects[item]}></img> </picture>) : ''
+                                                < picture key={item}>
+                                                <IconProjects iconItem={item}/>
+                                                </picture>
                                             )
                                         })
                                     }
@@ -62,13 +59,9 @@ const {dataReposGithub,iconSkills,iconsProjects}=useGithubRepos()
                                         {
                                             element.topics.map((item) => {
                                                 return (
-                                                   
-                                                  //  item == "deploy" || iconsProjects[item] ? '' : (
-                                                        < picture key={item}>
-                                                      
-                                                        <IconSkill iconItem={item}/>
-                                                        </picture>
-                                                 //   )
+                                                    < picture key={item}>
+                                                        <IconSkill iconItem={item} />
+                                                    </picture>
                                                 )
                                             })
                                         }
