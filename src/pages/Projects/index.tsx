@@ -37,7 +37,7 @@ export default function Projects() {
 
             <main className={styles.main_Container}>
                 <div className={styles.main_Content}>
-                    <h1>Projetos desenvolvimento</h1>
+                    <h1>Projetos desenvolvidos</h1>
                     <p>Essa página lista os <strong>{projects.length}</strong> principais projetos que venho desenvolvendo durante a minha jornada como programador.</p>
 
                     <div className={styles.card_Container}>
