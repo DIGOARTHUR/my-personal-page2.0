@@ -3,7 +3,7 @@ import {useGithubAutomatedRepos} from "../../../hooks/useGithubAutomatedRepos"
 type Props = {
     iconItem: string
 }
-export function IconProjects({ iconItem }: Props) {
+export default function IconProjects({ iconItem }: Props) {
     const { iconSkills, iconsProjects } = useGithubAutomatedRepos()
     
     return (

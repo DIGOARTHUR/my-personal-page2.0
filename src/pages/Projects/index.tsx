@@ -7,8 +7,8 @@ import styles from './styles.module.scss'
 import { useEffect, useState } from 'react'
 
 import {useGithubAutomatedRepos} from '../../hooks/useGithubAutomatedRepos'
-import {IconSkill} from './Components/IconSkill'
-import {IconProjects} from './Components/IconProjects'
+import IconSkill from './Components/IconSkill'
+import IconProjects from './Components/IconProjects'
 export default function Projects() {
 
     const { dataReposGithub} = useGithubAutomatedRepos()
