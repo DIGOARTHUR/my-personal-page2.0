@@ -5,9 +5,14 @@ import Image from 'next/image'
 import { Header } from '../../components/Header'
 import styles from './styles.module.scss'
 import { useEffect, useState } from 'react'
-import nameSkills from '../../utils/nameSkills'
-import iconsProjects from '../../utils/iconsProjects'
+
+import {useGithubAutomatedRepos} from '../../hooks/useGithubAutomatedRepos'
+import IconSkill from './Components/IconSkill'
+import IconProjects from './Components/IconProjects'
 export default function Projects() {
+
+    const { dataReposGithub} = useGithubAutomatedRepos()
+
 
     interface Provider {
         name: string;
@@ -15,7 +20,6 @@ export default function Projects() {
         html_url: string;
         description: string;
         id: number;
-
     }
 
 
@@ -24,12 +28,10 @@ export default function Projects() {
     useEffect(() => {
         fetch('https://api.github.com/users/digoarthur/repos')
             .then(response => response.json())
-            .then(data => setProjects(data.filter((item: Provider) => {
-                return item.topics.includes('deploy' as never)
-            })))
+            .then(data => setProjects(dataReposGithub(data, 'deploy')))
     }, [])
-    return (
 
+    return (
         <div className={styles.projects_Container}>
             <Header />
 
@@ -45,7 +47,9 @@ export default function Projects() {
                                     {
                                         element.topics.map((item) => {
                                             return (
-                                                iconsProjects[item] ? (  <picture><img key={item} src={iconsProjects[item]}></img> </picture>) : ''
+                                                < picture key={item}>
+                                                <IconProjects iconItem={item}/>
+                                                </picture>
                                             )
                                         })
                                     }
@@ -55,11 +59,9 @@ export default function Projects() {
                                         {
                                             element.topics.map((item) => {
                                                 return (
-                                                    item == "deploy" || iconsProjects[item] ? '' : (
-                                                        <picture>
-                                                        <img key={item} src={nameSkills[item]}></img>
-                                                        </picture>
-                                                    )
+                                                    < picture key={item}>
+                                                        <IconSkill iconItem={item} />
+                                                    </picture>
                                                 )
                                             })
                                         }

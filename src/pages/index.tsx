@@ -11,8 +11,9 @@ export default function Home() {
     <div className={styles.home_Container}>
       <Header />
       <main className={styles.main_Container}>
-       
+
         <section className={styles.main_Content} >
+         
           <h1>Diego Arthur</h1>
           <p>
             <strong>Front-end Developer | Apaixonado por Tecnologias. </strong>
@@ -21,7 +22,7 @@ export default function Home() {
           <div className={styles.typeWriter_Container}>
             <span>Programação... </span>
             <TypeWriter
-            
+
               options={{
                 autoStart: true,
                 loop: true,
@@ -33,9 +34,9 @@ export default function Home() {
 
             />
           </div>
-          
+
         </section>
-      
+
       </main>
       <Footer />
 
