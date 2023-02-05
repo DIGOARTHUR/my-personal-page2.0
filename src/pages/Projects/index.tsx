@@ -47,7 +47,7 @@ export default function Projects() {
                                     {
                                         element.topics.map((item) => {
                                             return (
-                                                < picture key={item}>
+                                                < picture style={{filter: 'brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(0%) hue-rotate(301deg) brightness(105%) contrast(106%)'}} key={item}>
                                                 <IconProjects iconItem={item}/>
                                                 </picture>
                                             )
