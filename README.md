@@ -65,7 +65,7 @@ https://simpleicons.org/?q=react
    <!------------------------------------DESCRIPTION-->
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação <!---write here : talk a little about project: what's does, example.  -->
-> Template baseado na página pessoal do Biro Biro da Rocketseat. É uma página pessoal com a finalidade de apresentar carreira, estudos, projetos, gostos, etc... A partir de toda uma adaptação e seguindo a estrutura visual, esta aplicação será sempre trabalhada de acordo com a necessidade de conteúdos.
+> Template baseado na página pessoal do [Biro Biro da Rocketseat](https://birobirobiro.dev) . É uma página pessoal com a finalidade de apresentar carreira, estudos, projetos, gostos, etc... A partir de toda uma adaptação e seguindo a estrutura visual, esta aplicação será sempre trabalhada de acordo com a necessidade de conteúdos.
   
   
 <!------------------------------------LAYOUT -->
