@@ -128,10 +128,18 @@ https://simpleicons.org/?q=react
   * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
 
+
+### Gerenciador / Pacotes
+<a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/> 
 *  [`React-Icons`](https://chakra-ui.com) (Biblioteca de icones)
 *  [`typewriter-effect`](https://www.npmjs.com/package/typewriter-effect) (Biblioteca utilizada para dar efeito de digitação)
 *  [`react-vertical-timeline-component`](https://aleksandarpopovic.com/Build-Simple-Timeline-in-React/) (Biblioteca usada para construir a Timeline utilizada da Page Universidade) 
   
+  ### Versionameto
+ <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
+ ### IDE
+ <a href="https://code.visualstudio.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-VisualStudioCode-/?logo=VisualStudioCode&logoColor=white&color=informational)<a/> 
+ 
  
   <!------------------------------------RUN APP-->
  
