@@ -153,7 +153,7 @@ https://simpleicons.org/?q=react
 1. Clonar repositório:
 
 ```
-git clone https://github.com/DIGOARTHUR/personWebsite.git
+git clone https://github.com/DIGOARTHUR/my-personal-page.git
 ```
 
 2. Instalar dependências
