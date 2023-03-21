@@ -28,8 +28,6 @@ https://simpleicons.org/?q=react
 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="HTML5"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/222955162-5b69600b-8953-45bd-9144-56fb3491d54e.svg"><a/>
    <a href="https://github.com/braziljs/eloquente-javascript"><img  alt="Javascript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762520-8226f647-a814-4723-8e6d-ed0334550838.svg"><a/>
-   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img  alt="CSS3"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762519-fc191098-1198-4668-9eb5-d0c1481da8c7.svg"><a/>
-    <a href="https://pt-br.reactjs.org/"><img  alt="ReactJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210763677-ee1a0283-eea7-45de-9589-86d7c50a8cb0.svg"><a/>
    <a href="https://www.typescriptlang.org/"><img  alt="TypeScript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762527-ae3afe1f-fe36-46a9-98ad-35dbae4d1adf.svg"><a/>
     <a href="https://nextjs.org/"><img  alt="NextJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762514-59814e6d-5cc8-4981-aa11-904b83a51d40.svg"><a/>
     <a href="https://sass-lang.com"><img  alt="Sass"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/223991584-175a2777-acde-4c71-947c-7844c64e595b.svg"><a/>
@@ -107,32 +105,36 @@ https://simpleicons.org/?q=react
 
 ## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks <!---write here: learned concepts; -->
 
-### Lógica 
-*  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
-   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
+### Lógica
+  
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
+   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Método que executa uma iteração em uma array com retorno de outra array formatada, trabalhada de diversas formas.)
+   * [`JSON`](https://www.w3schools.com/js/js_json.asp) (JSON é um formato para armazenar e transportar dados.)
    
 ### Estilização 
-* <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
+<a href="https://sass-lang.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Sass-/?logo=Sass&logoColor=white&color=ff69b4)<a/> 
+  * [`Estilo Encadeado`]()
   * [`Global Style`]()
      * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
      * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
   * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Modelo Layout)
-* <a href="https://sass-lang.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Sass-/?logo=Sass&logoColor=white&color=ff69b4)<a/> 
-  * [`Estilo Encadeado`]()
+
+  
    
 ### Framework & Libs
-* <a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
+<a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
   * `Estrutura` (Estruturação de pastas e arquivos)
   * `Evitar conflito CSS`(.modules) 
   * `next/link` (Aplicação de rotas)    
-   
-* <a href="https://reactjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=React&logoColor=white&color=blue)<a/> 
   * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
 
+ 
+
 
 ### Gerenciador / Pacotes
-<a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/> 
+<a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/>
+*  [`github-automated-repos`](https://github-automated-repos.vercel.app) (Biblioteca usada para automatizar e administrar a aparição de projetos (repositórios) do Github)
 *  [`react-icons`](https://chakra-ui.com) (Biblioteca de icones)
 *  [`typewriter-effect`](https://www.npmjs.com/package/typewriter-effect) (Biblioteca utilizada para dar efeito de digitação)
 *  [`react-vertical-timeline-component`](https://aleksandarpopovic.com/Build-Simple-Timeline-in-React/) (Biblioteca usada para construir a Timeline utilizada da Page Universidade) 
